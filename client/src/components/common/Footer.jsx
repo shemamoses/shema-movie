@@ -13,26 +13,6 @@ const Footer = () => {
         square={true}
         sx={{ backgroundImage: "unset", padding: "2rem", position: "relative" }}
       >
-        <Stack
-          alignItems="center"
-          justifyContent="space-between"
-          direction={{ xs: "column", md: "row " }}
-          sx={{ height: "max-content" }}
-        >
-          <Logo />
-          <Box>
-            {menuConfigs.main.map((item, index) => (
-              <Button
-                key={index}
-                sx={{ color: "inherit" }}
-                component={Link}
-                to={item.path}
-              >
-                {item.display}
-              </Button>
-            ))}
-          </Box>
-        </Stack>
         <Typography
           variant="body2"
           align="center"
@@ -45,13 +25,13 @@ const Footer = () => {
             color: "gray",
           }}
         >
-          &copy; 2022 BertFlix Developed by{" "}
+          &copy; 2024 SHEMA Movie Developed by{" "}
           <a
             style={{
               textDecoration: "none",
               color: theme.palette.primary.main,
             }}
-            href="https://berthutapea.vercel.app/"
+            href="https://www.linkedin.com/in/shema-moses-a70816268/"
             target="_blank"
             rel="noopener noreferrer"
           >
