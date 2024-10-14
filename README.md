@@ -36,21 +36,11 @@ In the second terminal
 - Create your mongoDB connection url, which you'll use as your MONGO_URL
 - Supply the following credentials
 
-```
-#  --- .env  ---
-
-MONGODB_URL
-PORT =5000
-TOKEN_SECRET=
-TMDB_BASE_URL=
-TMDB_KEY=
-```
-
-```
 # --- Terminal ---
 
 $ npm install (to install server-side dependencies)
 $ npm start (to start the server)
+
 ```
 
 ## Key Features
@@ -109,4 +99,5 @@ This project was created using the following technologies.
 
 - [TMDB API](https://developer.themoviedb.org/docs) - An application programming interface that provides access to a database of movies, television shows, and related information from The Movie Database platform.
 
-## Screenshots
+
+```
