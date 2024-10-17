@@ -10,9 +10,6 @@ ALX SE Final Movie Project </h5>
   - [Backend](#backend)
   - [Database](#database)
   - [API](#api)
-- [📸 Screenshots](#screenshots)
-- [Author](#author)
-- [License](#license)
 
 ## Configuration and Setup
 
